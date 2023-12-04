@@ -1,0 +1,39 @@
+@keyframes myMoveAnimation {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-mymove {
+    animation: myMoveAnimation 1s ease-out;
+  }
+  
+  .delay-5s {
+    animation-delay: 5%;
+    width: 35%;
+  }
+  
+  .delay-10s {
+    animation-delay: 10%;
+    width: 87%
+  }
+  
+  .delay-1s {
+    animation-delay: 1%;
+    width: 65%
+  }
+  
+  .delay-20s {
+    animation-delay: 20%;
+    width: 43%
+  }
+  
+  .delay-5s {
+    animation-delay: 5%;
+    width: 78%;
+  }
